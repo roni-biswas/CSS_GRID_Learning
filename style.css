@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.main_area {
+    min-height: 85.3vh;
+}
+
+
+/*
+header section area
+=======================
+*/
+
+.header {
+    background-color: aqua;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+
+/*
+footer css
+=============
+*/
+
+footer {
+    background-color: aqua;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+
+/* 
+navbar menu sec
+==================
+*/
+
+.nav_menu {
+    background-color: aquamarine;
+    padding: 1% 5%;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+/*
+main content area sec 
+========================
+*/
+
+.main_content {
+    background-color: white;
+    padding: 7% 5%;
+}
+
+.main_content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.main_content p {
+    color: rgb(53, 53, 53);
+}
+
+
+/*
+side bar css
+===============
+*/
+
+.side_bar {
+    background-color: rgb(11, 161, 167);
+}
+
+.side_bar .side_bar_1 {
+    padding: 5% 2%;
+}
+
+.side_bar .side_bar_1 h3 {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.side_bar .side_bar_1 hr {
+    color: rgb(226, 226, 226);
+    margin-bottom: 10px;
+}
+
+.side_bar .side_bar_1 a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 8px;
+    transition: .5s ease-out;
+}
+
+.side_bar .side_bar_1 a:hover {
+    color: rgb(53, 53, 53)
+}
+
+
+/* 
+global collum css
+==================
+*/
+
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/*
+respossive design
+=====================
+*/
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 50%;
+    }
+    .nav_menu a {
+        border: none;
+        background-color: whitesmoke;
+        color: rgb(53, 53, 53);
+        margin: 5px 0;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    html {
+        font-size: 50%;
+    }
+    .col-s-1 {
+        width: 8.33%
+    }
+    .col-s-2 {
+        width: 16.66%
+    }
+    .col-s-3 {
+        width: 25%
+    }
+    .col-s-4 {
+        width: 33.33%
+    }
+    .col-s-5 {
+        width: 41.66%
+    }
+    .col-s-6 {
+        width: 50%
+    }
+    .col-s-7 {
+        width: 58.33%
+    }
+    .col-s-8 {
+        width: 66.66%
+    }
+    .col-s-9 {
+        width: 75%
+    }
+    .col-s-10 {
+        width: 83.33%
+    }
+    .col-s-11 {
+        width: 91.66%
+    }
+    .col-s-12 {
+        width: 100%
+    }
+}
+
+@media screen and (min-width:768px) {
+    html {
+        font-size: 55%;
+    }
+    .col-1 {
+        width: 8.33%
+    }
+    .col-2 {
+        width: 16.66%
+    }
+    .col-3 {
+        width: 25%
+    }
+    .col-4 {
+        width: 33.33%
+    }
+    .col-5 {
+        width: 41.66%
+    }
+    .col-6 {
+        width: 50%
+    }
+    .col-7 {
+        width: 58.33%
+    }
+    .col-8 {
+        width: 66.66%
+    }
+    .col-9 {
+        width: 75%
+    }
+    .col-10 {
+        width: 83.33%
+    }
+    .col-11 {
+        width: 91.66%
+    }
+    .col-12 {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
